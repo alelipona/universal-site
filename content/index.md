@@ -9,7 +9,10 @@ description: A universal static site powered by Eleventy
 This is a universal static site. It is built with Eleventy and deployed automatically via Cloudflare Pages.
 
 ## Test update
-Автоматический деплой работает.
+Автоматический деплой работает.  
+
+## Test2 update
+Автоматический деплой работает2.
 
 ## What's here
 
