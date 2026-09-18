@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title or "Universal Site" }}</title>
+  <meta name="description" content="{{ description or 'A universal static site' }}">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/"><strong>{{ site.name or "Universal Site" }}</strong></a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <footer>
+    <p>&copy; {{ year }} {{ site.name or "Universal Site" }}</p>
+  </footer>
+</body>
+</html>
